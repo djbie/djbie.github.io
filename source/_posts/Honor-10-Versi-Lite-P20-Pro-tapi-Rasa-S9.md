@@ -79,4 +79,4 @@ Tentunya dengan harga terjangkau ada beberapa hal yang dirasa tidak perlu untuk 
 
 Namun untuk harga yang ditawarkan, kemungkinan sekitar Rp7 jutaan, fitur yang diberikan sudah lebih dari cukup. Notch, AI camera, desain yang elegan, dan teknologi NFC, rasanya sudah lebih dari cukup ketimbang harus membeli smartphone dengan harga mahal dan fitur yang banyak namun tak pernah digunakan.
 
-<iframe width="426" height="240" src="https://www.youtube.com/embed/8jKwlv2ZmKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube 8jKwlv2ZmKI %}

@@ -24,4 +24,4 @@ Erdogan menyerukan boikot produk AS karena Negeri Paman Sam itu ditudingnya seng
 
 "Jika mereka punya iPhone, di pihak lain ada Samsung. Dan kami juga punya merek telepon sendiri. Kami akan memproduksinya dalam jumlah cukup untuk kami sendiri," tambah Erdogan.
 
-<iframe width="320" height="240" src="https://www.youtube.com/embed/dANCytRddK0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% youtube dANCytRddK0 %}
