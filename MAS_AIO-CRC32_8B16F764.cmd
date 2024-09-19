@@ -1883,7 +1883,7 @@ echo You have only Office dashboard app installed, you need to install full Offi
 echo:
 call :dk_color %Blue% "Download and install Office from below URL and try again."
 echo:
-echo %mas%genuine-installation-media.html
+echo office.com
 goto dk_done
 )
 
