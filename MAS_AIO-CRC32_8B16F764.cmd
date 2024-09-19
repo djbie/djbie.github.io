@@ -1,4 +1,4 @@
-@set masver=2.6
+@set masver=10.0
 @setlocal DisableDelayedExpansion
 @echo off
 
@@ -420,7 +420,7 @@ set _NoEditionChange=0
 
 cls
 color 07
-title  HWID Activation %masver%
+title  HWID Activation
 
 set _args=
 set _elev=
@@ -520,7 +520,7 @@ setlocal EnableDelayedExpansion
 cls
 mode 110, 34
 if exist "%Systemdrive%\Windows\System32\spp\store_test\" mode 134, 34
-title  HWID Activation %masver%
+title  HWID Activation
 
 echo:
 echo Initializing...
@@ -2111,7 +2111,7 @@ goto :dk_done
 
 cls
 mode 99, 28
-title  Uninstall Ohook Activation %masver%
+title  Uninstall Ohook Activation
 
 set _present=
 set _unerror=
@@ -3926,7 +3926,7 @@ goto Done
 
 cls
 set _gui=1
-title  %_title%
+title  IT Store ID Activation
 mode con: cols=76 lines=30
 
 echo.
@@ -4101,7 +4101,7 @@ pushd "!_work!"
 if not defined _unattended (
 mode con cols=98 lines=31
 %psc% "&%_buf%"
-title  %_title%
+title  IT Store ID Activation
 ) else (
 title  Online KMS Activation %masver%
 )
