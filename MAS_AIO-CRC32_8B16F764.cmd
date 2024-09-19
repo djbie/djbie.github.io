@@ -92,7 +92,7 @@ popd
 
 cls
 color 07
-title  Microsoft_Activation_Scripts %masver%
+title  IT Store ID Activation
 
 set _args=
 set _elev=
