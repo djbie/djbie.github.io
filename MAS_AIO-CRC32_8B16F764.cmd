@@ -37,7 +37,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=ht%blank%tps%blank%://mass%blank%grave.dev/"
+set "mas=ht%blank%tps%blank%://google.com/"
 
 ::  Check if Null service is working, it's important for the batch script
 
@@ -1985,8 +1985,6 @@ call :oh_hookinstall
 
 ::========================================================================================================================================
 
-::  Find remnants of Office vNext license block and remove it because it stops non vNext licenses from appearing
-::  https://learn.microsoft.com/en-us/office/troubleshoot/activation/reset-office-365-proplus-activation-state
 
 set _sid=
 set sub_next=
@@ -2095,7 +2093,7 @@ if !errorlevel! NEQ 0 cscript //nologo %windir%\system32\slmgr.vbs /rilc %nul%
 echo:
 if not defined error (
 call :dk_color %Green% "Office is permanently activated."
-echo Help: %mas%troubleshoot
+echo Help: 089601268972
 ) else (
 call :dk_color %Red% "Some errors were detected."
 if not defined ierror if not defined showfix if not defined serv_cor if not defined serv_cste call :dk_color %Blue% "%_fixmsg%"
@@ -8979,8 +8977,6 @@ for %%# in (wlidsvc LicenseManager) do (%psc% Restart-Service %%# %nul%)
 
 ::========================================================================================================================================
 
-::  Find remnants of Office vNext license block and remove it because it stops non vNext licenses from appearing
-::  https://learn.microsoft.com/en-us/office/troubleshoot/activation/reset-office-365-proplus-activation-state
 
 :cleanvnext
 
